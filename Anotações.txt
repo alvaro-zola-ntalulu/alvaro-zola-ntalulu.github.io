@@ -1,0 +1,5 @@
+1. Projetos e Liderança: Quando clicar nos links da Hover Company e Álvaro Inspires, eles não devem ir diretamente nos seus sites ou paginas. Eles vão ser um link que vão em outro ficheiro HTML, onde vai ter a informação da empresa e depois os links que darão acesso as suas paginas. Cada Empresa com os seus respectivos arquivos HTML.
+
+2. Na Galeria de trabalho: também deve ter esta dinâmica. Explicando o trabalho ou projeto e depois um link que pode dar acesso aos trabalhos ou páginas em que presto serviço de social mídia.
+
+2. Na minha Imagem, eu quero que possa aparecer um efeito muito lega. Quero que quando passar o mouse por cima além do efeito que esta lá. Possa ter outro efeito, que aparece vários símbolos pequenos a volta do círculo, ou seja, os ícones vão formar o segundo circulo quando o mouse é pousado na imagem. (Os ícones devem ser de: marketing, tecnologia, redes, software, PC, etc.) Nessa vertente.  

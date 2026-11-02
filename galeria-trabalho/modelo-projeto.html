@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Título do Projeto | Portfólio Álvaro Zola</title>
+    <!-- Ligação ao CSS principal (subindo um nível a partir da pasta galeria-trabalho) -->
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body class="subpage-body">
+
+    <!-- CABEÇALHO DO PROJETO -->
+    <header class="header">
+        <div class="container nav-container">
+            <a href="../index.html" class="logo">Nome <span>Projeto</span></a>
+            <nav class="nav-menu">
+                <ul>
+                    <li><a href="../index.html">← Voltar ao Portfólio</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- SECÇÃO PRINCIPAL (HERO DO PROJETO) -->
+    <section class="brand-hero">
+        <div class="container brand-container">
+            
+            <!-- Coluna da Esquerda: Descrição, Categoria e Links de Acesso -->
+            <div class="brand-info">
+                <!-- Categoria / Etiqueta do Projeto -->
+                <span class="badge-brand">Categoria (ex: Desenvolvimento, Redes, Marketing)</span>
+                
+                <!-- Nome do Projeto -->
+                <h1>Título do Teu Novo Projeto</h1>
+                
+                <!-- Descrição detalhada -->
+                <p>Descreve aqui o objetivo principal do projeto, os desafios superados, as tecnologias utilizadas e o impacto ou resultado gerado para o cliente ou marca.</p>
+                
+                <!-- Botões de Ação Principal -->
+                <div class="brand-actions">
+                    <a href="https://link-do-projeto.com" target="_blank" class="btn-brand" style="background: var(--accent-blue); color: #fff;">Ver Projeto Online</a>
+                    <a href="https://wa.me/244976339719" target="_blank" class="btn-brand whatsapp" style="background: #25D366; color: #fff;">Contacto Direto</a>
+                </div>
+
+                <!-- Chips / Atalhos Rápidos para Redes ou Links Úteis -->
+                <div class="brand-socials-row">
+                    <a href="../index.html" class="social-chip">Início</a>
+                    <a href="https://github.com" target="_blank" class="social-chip">Repositório / GitHub</a>
+                    <a href="https://instagram.com" target="_blank" class="social-chip">Instagram</a>
+                </div>
+            </div>
+
+            <!-- Coluna da Direita: Imagem Principal / Mockup / Logótipo -->
+            <div class="brand-media">
+                <div class="brand-logo-card">
+                    <!-- Insere a imagem principal em assets/img/ -->
+                    <img src="../assets/img/nome-da-foto.jpg" alt="Nome do Projeto">
+                    <div class="brand-glow"></div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- SECÇÃO DE GALERIA MULTIMÉDIA (FOTOS & VÍDEOS) -->
+    <section class="brand-details-section">
+        <div class="container">
+            <h2 class="sub-title">Galeria Multimédia (Fotos & Vídeos)</h2>
+            <p class="sub-desc">Explora abaixo os registos visuais, capturas de ecrã dos sistemas e vídeos demonstrativos deste trabalho.</p>
+            
+            <!-- Grelha de Média (Adiciona quantos blocos quiseres aqui) -->
+            <div class="media-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 25px; margin-top: 40px; margin-bottom: 50px; text-align: left;">
+                
+                <!-- Bloco 1: Foto Adicional / Captura de Ecrã -->
+                <div class="media-card" style="background: var(--bg-light); border-radius: 12px; overflow: hidden; border: 1px solid rgba(0,0,0,0.08);">
+                    <img src="../assets/img/nome-da-foto.jpg" alt="Detalhe do Projeto" style="width: 100%; height: 200px; object-fit: cover;">
+                    <div style="padding: 20px;">
+                        <h4 style="color: var(--primary-dark); margin-bottom: 8px; font-size: 1.1rem;">Título da Funcionalidade / Módulo</h4>
+                        <p style="color: var(--text-muted); font-size: 0.9rem;">Breve explicação sobre o que esta captura de ecrã ou imagem representa no projeto.</p>
+                    </div>
+                </div>
+
+                <!-- Bloco 2: Vídeo Demonstrativo -->
+                <div class="media-card" style="background: var(--bg-light); border-radius: 12px; overflow: hidden; border: 1px solid rgba(0,0,0,0.08); display: flex; flex-direction: column; justify-content: center; align-items: center; padding: 30px; text-align: center;">
+                    <div style="font-size: 2.8rem; margin-bottom: 10px;">🎥</div>
+                    <h4 style="color: var(--primary-dark); margin-bottom: 8px; font-size: 1.1rem;">Demonstração em Vídeo</h4>
+                    <p style="color: var(--text-muted); font-size: 0.9rem; margin-bottom: 20px;">Assistir à gravação do funcionamento prático ou apresentação do sistema.</p>
+                    <a href="https://youtube.com" target="_blank" class="social-chip" style="background: var(--accent-blue); color: #fff; padding: 10px 20px;">Ver Vídeo no YouTube</a>
+                </div>
+
+            </div>
+
+            <!-- Botão de retorno -->
+            <div class="back-home-wrapper">
+                <a href="../index.html" class="btn btn-secondary">← Voltar ao Portfólio Principal</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- RODAPÉ -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Álvaro Zola Ntalulu. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
