@@ -375,7 +375,7 @@ body {
     border-top: 1px solid rgba(255, 255, 255, 0.05);
 }
 
-/* --- BANNER DE MARCAS (Hover Company & Álvaro Inspires) --- */
+/* --- BANNER DE MARCAS (Hover Company, Álvaro Inspires e outras) --- */
 .brands-banner {
     display: flex;
     gap: 20px;
@@ -513,6 +513,155 @@ body {
     border-color: #1877F2;
 }
 
+/* --- ESTILOS INTERATIVOS PARA PÁGINAS DE MARCAS/EMPRESAS --- */
+.brand-hero {
+    padding: 160px 0 90px 0;
+    background: linear-gradient(135deg, #0A192F 0%, #112240 100%);
+    color: var(--white);
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+}
+
+.brand-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.brand-info {
+    flex: 1;
+}
+
+.badge-brand {
+    display: inline-block;
+    background: rgba(0, 242, 254, 0.12);
+    color: var(--accent-cyan);
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-images: 0.5px;
+}
+
+.brand-info h1 {
+    font-size: 3rem;
+    font-weight: 800;
+    margin-bottom: 20px;
+    color: var(--white);
+}
+
+.brand-info p {
+    font-size: 1.1rem;
+    color: var(--text-light);
+    margin-bottom: 30px;
+    line-height: 1.7;
+}
+
+/* Botões de Ação Interativos */
+.brand-actions {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 25px;
+    flex-wrap: wrap;
+}
+
+.btn-brand {
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-weight: 700;
+    text-decoration: none;
+    transition: var(--transition);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+.btn-brand.facebook {
+    background: #1877F2;
+    color: var(--white);
+}
+
+.btn-brand.instagram {
+    background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+    color: var(--white);
+}
+
+.btn-brand.whatsapp {
+    background: #25D366;
+    color: var(--white);
+}
+
+.btn-brand:hover {
+    transform: translateY(-3px);
+    opacity: 0.95;
+    box-shadow: 0 8px 25px rgba(10, 132, 255, 0.4);
+}
+
+
+
+/* Cartão da Imagem/Logótipo Interativo */
+.brand-media {
+    flex: 0 0 350px;
+    display: flex;
+    justify-content: center;
+}
+
+.brand-logo-card {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    overflow: hidden;
+    background: var(--secondary-dark);
+    border: 2px solid rgba(0, 242, 254, 0.3);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+    transition: var(--transition);
+}
+
+.brand-logo-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: var(--transition);
+}
+
+.brand-logo-card:hover {
+    transform: scale(1.03) translateY(-5px);
+    border-color: var(--accent-cyan);
+    box-shadow: 0 30px 60px rgba(0, 242, 254, 0.25);
+}
+
+.brand-logo-card:hover img {
+    transform: scale(1.05);
+}
+
+.brand-details-section {
+    padding: 80px 0;
+    background-color: var(--white);
+    text-align: center;
+}
+
+.sub-title {
+    font-size: 2rem;
+    font-weight: 800;
+    color: var(--primary-dark);
+    margin-bottom: 15px;
+}
+
+.sub-desc {
+    max-width: 700px;
+    margin: 0 auto 30px auto;
+    color: var(--text-muted);
+    font-size: 1.05rem;
+    line-height: 1.6;
+}
+
+.back-home-wrapper {
+    margin-top: 20px;
+}
+
 /* --- EFEITO DE ÓRBITA CIRCULAR NA FOTO DE PERFIL (6 ÍCONES ALINHADOS) --- */
 .profile-container {
     position: relative;
@@ -589,177 +738,7 @@ body {
 .icon-5 { bottom: 60px; left: 15px; }                           /* Inferior Esquerda */
 .icon-6 { top: 60px;  left: 15px; }                             /* Superior Esquerda */
 
-/* --- ESTILOS INTERATIVOS PARA PÁGINAS DE MARCAS/EMPRESAS --- */
-.brand-hero {
-    padding: 160px 0 90px 0;
-    background: linear-gradient(135deg, #0A192F 0%, #112240 100%);
-    color: var(--white);
-    min-height: 80vh;
-    display: flex;
-    align-items: center;
-}
 
-.brand-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 50px;
-}
-
-.brand-info {
-    flex: 1;
-}
-
-.badge-brand {
-    display: inline-block;
-    background: rgba(0, 242, 254, 0.12);
-    color: var(--accent-cyan);
-    padding: 6px 14px;
-    border-radius: 20px;
-    font-size: 0.85rem;
-    font-weight: 700;
-    margin-bottom: 20px;
-    text-transform: uppercase;
-    letter-images: 0.5px;
-}
-
-.brand-info h1 {
-    font-size: 3rem;
-    font-weight: 800;
-    margin-bottom: 20px;
-    color: var(--white);
-}
-
-.brand-info p {
-    font-size: 1.1rem;
-    color: var(--text-light);
-    margin-bottom: 30px;
-    line-height: 1.7;
-}
-
-/* Botões de Ação Interativos */
-.brand-actions {
-    display: flex;
-    gap: 15px;
-    margin-bottom: 25px;
-    flex-wrap: wrap;
-}
-
-.btn-brand {
-    padding: 12px 24px;
-    border-radius: 8px;
-    font-weight: 700;
-    text-decoration: none;
-    transition: var(--transition);
-    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
-}
-
-.btn-brand.facebook {
-    background: #1877F2;
-    color: var(--white);
-}
-
-.btn-brand.instagram {
-    background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
-    color: var(--white);
-}
-
-.btn-brand:hover {
-    transform: translateY(-3px);
-    opacity: 0.95;
-    box-shadow: 0 8px 25px rgba(10, 132, 255, 0.4);
-}
-
-/* Chips de Redes Sociais Secundárias */
-.brand-socials-row {
-    display: flex;
-    gap: 12px;
-    flex-wrap: wrap;
-}
-
-.social-chip {
-    background: rgba(255, 255, 255, 0.08);
-    border: 1px solid rgba(255, 255, 255, 0.15);
-    color: var(--white);
-    padding: 8px 16px;
-    border-radius: 6px;
-    text-decoration: none;
-    font-size: 0.9rem;
-    font-weight: 600;
-    transition: var(--transition);
-}
-
-.social-chip:hover {
-    background: var(--accent-blue);
-    border-color: var(--accent-cyan);
-    transform: translateY(-2px);
-}
-
-.social-chip.whatsapp:hover {
-    background: #25D366;
-    border-color: #25D366;
-}
-
-/* Cartão da Imagem/Logótipo Interativo */
-.brand-media {
-    flex: 0 0 350px;
-    display: flex;
-    justify-content: center;
-}
-
-.brand-logo-card {
-    position: relative;
-    width: 300px;
-    height: 300px;
-    border-radius: 20px;
-    overflow: hidden;
-    background: var(--secondary-dark);
-    border: 2px solid rgba(0, 242, 254, 0.3);
-    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
-    transition: var(--transition);
-}
-
-.brand-logo-card img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    transition: var(--transition);
-}
-
-.brand-logo-card:hover {
-    transform: scale(1.03) translateY(-5px);
-    border-color: var(--accent-cyan);
-    box-shadow: 0 30px 60px rgba(0, 242, 254, 0.25);
-}
-
-.brand-logo-card:hover img {
-    transform: scale(1.05);
-}
-
-.brand-details-section {
-    padding: 80px 0;
-    background-color: var(--white);
-    text-align: center;
-}
-
-.sub-title {
-    font-size: 2rem;
-    font-weight: 800;
-    color: var(--primary-dark);
-    margin-bottom: 15px;
-}
-
-.sub-desc {
-    max-width: 700px;
-    margin: 0 auto 30px auto;
-    color: var(--text-muted);
-    font-size: 1.05rem;
-    line-height: 1.6;
-}
-
-.back-home-wrapper {
-    margin-top: 20px;
-}
 
 /* Responsividade para Telemóveis */
 @media (max-width: 868px) {
