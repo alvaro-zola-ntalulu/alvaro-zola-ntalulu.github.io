@@ -38,7 +38,9 @@ body {
     padding: 0 24px;
 }
 
-.justificado 
+.justificado {
+    text-align: justify;
+}
 
 /* --- 3. CABEÇALHO VIDRO FOSCO (GLASSMORPHISM) --- */
 .header {
