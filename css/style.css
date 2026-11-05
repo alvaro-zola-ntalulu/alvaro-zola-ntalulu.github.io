@@ -599,7 +599,35 @@ body {
     box-shadow: 0 8px 25px rgba(10, 132, 255, 0.4);
 }
 
+/* Chips de Redes Sociais Secundárias */
+.brand-socials-row {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+}
 
+.social-chip {
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    color: var(--white);
+    padding: 8px 16px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 600;
+    transition: var(--transition);
+}
+
+.social-chip:hover {
+    background: var(--accent-blue);
+    border-color: var(--accent-cyan);
+    transform: translateY(-2px);
+}
+
+.social-chip.whatsapp:hover {
+    background: #25D366;
+    border-color: #25D366;
+}
 
 /* Cartão da Imagem/Logótipo Interativo */
 .brand-media {

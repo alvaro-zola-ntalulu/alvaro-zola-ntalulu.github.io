@@ -4,3 +4,9 @@
 
 3 Depois do Contacto, criar uma nova secção dedicada para as pessoas que vão acessar o meu site, um lugar onde as pessoas vão dar a sua opinião em relação ao site. Onde posso alterar, oque posso mudar, etc. Ou seja, tem que ter uma caixa de texto que eles vão escrever o que acharam e depois a mensagem ir diretamente no meu e-mail ou WhatsApp, ou até mesmo cair de forma anónima.
 
+____________________________________________
+
+4. Na galeria de Trabalho, ou seja, dentro dos ficheiro relacionado ao trabalho que estou a fazer, quero que as imagens que estão lá ou as mídias, devam ser clicáveis para ver em tamanho grande, principalmente as imagens.
+
+Dúvidas:
+1. No meu trabalho de Simulação de redes, oque deve estar em códigos e configuração, e porquê o link está indo no GitHub, tenho que hospedar também?
