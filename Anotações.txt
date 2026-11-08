@@ -10,3 +10,33 @@ ____________________________________________
 
 Dúvidas:
 1. No meu trabalho de Simulação de redes, oque deve estar em códigos e configuração, e porquê o link está indo no GitHub, tenho que hospedar também?
+
+________________________________________
+
+
+Resposta à Dúvida: O que colocar no GitHub para o projeto Cisco e porquê?
+1. O que deve estar na secção "Códigos e Configurações"?
+Num projeto de infraestrutura de redes, não colocas código no sentido tradicional de programação (como HTML ou Python), mas sim:
+
+Ficheiros de Simulação (.pkt): O ficheiro original do Cisco Packet Tracer para que qualquer engenheiro ou recrutador possa baixar e abrir a rede no computador dele.
+
+Ficheiros de Configuração dos Equipamentos (.txt ou .cfg): O texto exportado da CLI (Command Line Interface) dos Roteadores e Switches. Por exemplo:
+
+Comandos de criação de VLANs (vlan 10, vlan 20).
+
+Configurações de Interfaces e IP (interface GigabitEthernet0/0, ip address ...).
+
+Configuração de protocolos de roteamento (OSPF, RIP, rotas estáticas).
+
+Listas de Controlo de Acesso (ACLs) para segurança.
+
+Um ficheiro README.md: Uma explicação técnica em texto descrevendo o que a rede faz, a tabela de desempenhos/IPs e o diagrama.
+
+2. O link precisa de ir para o GitHub? Tenho de hospedar lá?Sim, o GitHub é a escolha ideal!
+O GitHub não serve apenas para hospedar sites ou códigos de programação. Na área de TI e Redes, ele funciona como o teu repositório oficial de provas técnicas.
+
+Porquê usar o GitHub?
+Um recrutador, cliente ou engenheiro sénior no LinkedIn quer ver se tu realmente sabes configurar os equipamentos no terminal da Cisco e se tens organização técnica. Quando eles clicam no link do GitHub e vêm os ficheiros .pkt e os relatórios de comandos organizados, a tua credibilidade como profissional de TI sobe imediatamente.
+
+Precisas de hospedar o site lá?
+Não precisas de hospedar a página Web inteira no GitHub se não quiseres (podes usar a Vercel, Netlify ou um servidor próprio), mas deves criar um repositório público no GitHub chamado cisco-network-infrastructure e colocar lá os ficheiros .pkt e as configurações em texto.
