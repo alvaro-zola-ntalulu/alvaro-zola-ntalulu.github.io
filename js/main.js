@@ -60,3 +60,71 @@ navLinks.forEach(link => {
         navMenu.classList.remove('active');
     });
 });
+
+// --- ENVIO DE FEEDBACK VIA WHATSAPP ---
+const btnWaFeedback = document.getElementById('btn-wa-feedback');
+
+if (btnWaFeedback) {
+    btnWaFeedback.addEventListener('click', () => {
+        const nome = document.getElementById('fb-nome').value.trim();
+        const mensagem = document.getElementById('fb-mensagem').value.trim();
+
+        if (!mensagem) {
+            alert('Por favor, escreve a tua mensagem ou opinião antes de enviar.');
+            return;
+        }
+
+        const identificacao = nome ? `Nome: ${nome}` : 'Enviado de forma Anónima';
+        const textoFormatado = `Olá Álvaro! Tenho um feedback sobre o teu site:%0A%0A*${identificacao}*%0A*Mensagem:* ${encodeURIComponent(mensagem)}`;
+        
+        // Teu número oficial de WhatsApp
+        const numeroWa = '244976339719';
+        
+        window.open(`https://wa.me/${numeroWa}?text=${textoFormatado}`, '_blank');
+    });
+}
+
+// --- SISTEMA DE LIGHTBOX ROBUSTO ---
+document.addEventListener('DOMContentLoaded', () => {
+    const lightbox = document.getElementById('lightbox');
+    const lightboxImg = document.getElementById('lightbox-img');
+    const lightboxClose = document.getElementById('lightbox-close');
+
+    // Seleciona todas as imagens das páginas de projeto (seja em media-card ou galerias gerais)
+    const galleryImages = document.querySelectorAll('.media-card img, .project-gallery img, img[data-lightbox]');
+
+    galleryImages.forEach(img => {
+        img.style.cursor = 'pointer'; // Assegura o cursor de clique
+        img.addEventListener('click', (e) => {
+            e.preventDefault();
+            if (lightbox && lightboxImg) {
+                lightbox.classList.add('active');
+                lightboxImg.src = img.src;
+            }
+        });
+    });
+
+    // Fechar ao clicar no botão X
+    if (lightboxClose) {
+        lightboxClose.addEventListener('click', () => {
+            lightbox.classList.remove('active');
+        });
+    }
+
+    // Fechar ao clicar no fundo escuro fora da imagem
+    if (lightbox) {
+        lightbox.addEventListener('click', (e) => {
+            if (e.target === lightbox) {
+                lightbox.classList.remove('active');
+            }
+        });
+    }
+
+    // Fechar com a tecla ESC do teclado
+    document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && lightbox) {
+            lightbox.classList.remove('active');
+        }
+    });
+});
+

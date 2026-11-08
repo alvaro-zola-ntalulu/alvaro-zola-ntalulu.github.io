@@ -851,3 +851,34 @@ body {
     }
 }
 
+
+#lightbox {
+    display: none;
+    position: fixed;
+    z-index: 999999;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.9);
+    justify-content: center;
+    align-items: center;
+}
+
+#lightbox-img {
+    max-width: 90%;
+    max-height: 85vh;
+    object-fit: contain;
+    border-radius: 8px;
+}
+
+#lightbox-close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    color: #fff;
+    font-size: 35px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
