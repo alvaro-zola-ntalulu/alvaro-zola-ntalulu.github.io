@@ -58,7 +58,8 @@
                         target="_blank">LinkedIn</a>
                     <a href="https://github.com/alvaro-zola-ntalulu" target="_blank">GitHub</a>
                     <a href="https://www.instagram.com/alvarontalulu" target="_blank">Instagram</a>
-                    <a href="https://linktree.com" target="_blank">Linktree</a>
+                    <!--                     <a href="https://linktree.com" target="_blank">Linktree</a>
+ -->
                 </div>
             </div>
 
@@ -141,7 +142,8 @@
             <div class="brands-banner">
                 <a href="Projectos/hover-company.html" class="brand-link">🏢 Hover Company (Startup Tecnológica)</a>
                 <a href="Projectos/alvaro-inspires.html" class="brand-link">💡 Álvaro Inspires (Marca Pessoal)</a>
-                <a href="Projectos/cangozola-solutions.html" class="brand-link">💰 CangoZola Solution (Produtos e Serviços)</a>
+                <a href="Projectos/cangozola-solutions.html" class="brand-link">💰 CangoZola Solution (Produtos e
+                    Serviços)</a>
             </div>
 
             <!-- Galeria Visual de Projetos -->
@@ -290,29 +292,44 @@
     <section id="feedback" class="brand-details-section parallax-section">
         <div class="container">
             <h2 class="sub-title">A Tua Opinião Conta</h2>
-            <p class="sub-desc">O que achaste do site? Onde posso melhorar ou o que gostarias de ver adicionado? O teu feedback é fundamental para evoluir este ecossistema.</p>
-            
-            <div class="feedback-wrapper" style="max-width: 650px; margin: 40px auto 0 auto; background: var(--bg-light); padding: 35px; border-radius: 16px; border: 1px solid rgba(0,0,0,0.08); box-shadow: 0 10px 30px rgba(0,0,0,0.05);">
-                
+            <p class="sub-desc">O que achaste do site? Onde posso melhorar ou o que gostarias de ver adicionado? O teu
+                feedback é fundamental para evoluir este ecossistema.</p>
+
+            <div class="feedback-wrapper"
+                style="max-width: 650px; margin: 40px auto 0 auto; background: var(--bg-light); padding: 35px; border-radius: 16px; border: 1px solid rgba(0,0,0,0.08); box-shadow: 0 10px 30px rgba(0,0,0,0.05);">
+
                 <!-- Formulário de Envio Directo para E-mail -->
-                <form id="feedback-form" action="https://formspree.io/f/SEU_ID_AQUI" method="POST" style="display: flex; flex-direction: column; gap: 20px; text-align: left;">
-                    
+                <form id="feedback-form" action="https://formspree.io/f/SEU_ID_AQUI" method="POST"
+                    style="display: flex; flex-direction: column; gap: 20px; text-align: left;">
+
                     <div>
-                        <label for="fb-nome" style="font-size: 0.9rem; font-weight: 600; color: var(--primary-dark); display: block; margin-bottom: 8px;">O teu Nome (Opcional):</label>
-                        <input type="text" id="fb-nome" name="nome" placeholder="Deixa em branco se preferires enviar em anónimo" style="width: 100%; padding: 12px 15px; border-radius: 8px; border: 1px solid rgba(0,0,0,0.15); outline: none; font-family: inherit;">
+                        <label for="fb-nome"
+                            style="font-size: 0.9rem; font-weight: 600; color: var(--primary-dark); display: block; margin-bottom: 8px;">O
+                            teu Nome (Opcional):</label>
+                        <input type="text" id="fb-nome" name="nome"
+                            placeholder="Deixa em branco se preferires enviar em anónimo"
+                            style="width: 100%; padding: 12px 15px; border-radius: 8px; border: 1px solid rgba(0,0,0,0.15); outline: none; font-family: inherit;">
                     </div>
 
                     <div>
-                        <label for="fb-mensagem" style="font-size: 0.9rem; font-weight: 600; color: var(--primary-dark); display: block; margin-bottom: 8px;">A tua Opinião / Sugestão: *</label>
-                        <textarea id="fb-mensagem" name="mensagem" rows="5" placeholder="Escreve aqui a tua opinião sobre o design, funcionalidades, facilidade de uso ou melhorias..." required style="width: 100%; padding: 12px 15px; border-radius: 8px; border: 1px solid rgba(0,0,0,0.15); outline: none; font-family: inherit; resize: vertical;"></textarea>
+                        <label for="fb-mensagem"
+                            style="font-size: 0.9rem; font-weight: 600; color: var(--primary-dark); display: block; margin-bottom: 8px;">A
+                            tua Opinião / Sugestão: *</label>
+                        <textarea id="fb-mensagem" name="mensagem" rows="5"
+                            placeholder="Escreve aqui a tua opinião sobre o design, funcionalidades, facilidade de uso ou melhorias..."
+                            required
+                            style="width: 100%; padding: 12px 15px; border-radius: 8px; border: 1px solid rgba(0,0,0,0.15); outline: none; font-family: inherit; resize: vertical;"></textarea>
                     </div>
 
                     <div style="display: flex; gap: 15px; flex-wrap: wrap; margin-top: 10px;">
                         <!-- Botão Enviar por E-mail -->
-                        <button type="submit" class="btn btn-primary" style="flex: 1; border: none; cursor: pointer;">Enviar Feedback por E-mail</button>
-                        
+                        <button type="submit" class="btn btn-primary"
+                            style="flex: 1; border: none; cursor: pointer;">Enviar Feedback por E-mail</button>
+
                         <!-- Botão Enviar por WhatsApp / Anónimo -->
-                        <button type="button" id="btn-wa-feedback" class="btn" style="background: #25D366; color: #fff; border: none; cursor: pointer; flex: 1;">Enviar via WhatsApp 💬</button>
+                        <button type="button" id="btn-wa-feedback" class="btn"
+                            style="background: #25D366; color: #fff; border: none; cursor: pointer; flex: 1;">Enviar via
+                            WhatsApp 💬</button>
                     </div>
 
                 </form>
@@ -324,14 +341,14 @@
     <!-- 8. RODAPÉ -->
     <footer class="footer">
         <div class="container">
-            <p>&copy; 2026 Álvaro Zola Ntalulu - CEO Hover Company. Todos os direitos reservados.</p>
+            <p>&copy; 2026 Álvaro Zola Ntalulu.</p>
         </div>
     </footer>
 
     <!-- Script de interatividade -->
     <script src="js/main.js"></script>
 
-    
+
 </body>
 
 </html>
