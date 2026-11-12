@@ -70,7 +70,7 @@ if (btnWaFeedback) {
         const mensagem = document.getElementById('fb-mensagem').value.trim();
 
         if (!mensagem) {
-            alert('Por favor, escreve a tua mensagem ou opinião antes de enviar.');
+            alert('Por favor, escreve a tua mensagem ou opinião antes de enviar, sem isso não vai ser possível continuar.');
             return;
         }
 
