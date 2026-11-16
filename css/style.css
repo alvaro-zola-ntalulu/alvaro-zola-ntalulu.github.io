@@ -827,7 +827,7 @@ body {
         right: -100%; /* Esconde o menu fora do ecrã à direita */
         width: 75%;
         height: 100vh;
-        background: var(--secondary-dark);
+        background: #112240f3;
         box-shadow: -10px 0 30px rgba(0, 0, 0, 0.5);
         display: flex;
         justify-content: center;
@@ -848,6 +848,11 @@ body {
 
     .nav-menu ul li a {
         font-size: 1.2rem;
+        color: white;
+    }
+
+    .section-title {
+        text-align: ;
     }
 }
 
