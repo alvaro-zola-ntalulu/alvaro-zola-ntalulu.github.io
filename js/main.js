@@ -120,11 +120,6 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    // Fechar com a tecla ESC do teclado
-    document.addEventListener('keydown', (e) => {
-        if (e.key === 'Escape' && lightbox) {
-            lightbox.classList.remove('active');
-        }
-    });
+    
 });
 
