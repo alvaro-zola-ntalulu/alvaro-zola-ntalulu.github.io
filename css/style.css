@@ -95,7 +95,7 @@ body {
 
 .btn-nav {
     background: linear-gradient(135deg, var(--accent-blue), #0052CC);
-    color: var(--white) !important;
+    color: var(--white);
     padding: 10px 20px;
     border-radius: 8px;
     box-shadow: 0 4px 14px rgba(10, 132, 255, 0.3);
